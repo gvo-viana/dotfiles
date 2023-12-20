@@ -1,0 +1,14 @@
+#Formato do Arquivo de Equalização para o MOC
+# Frequência Central / Largura da Banda / Amplificação
+
+EQSET
+   60  1.00  0  
+  170  1.00  0
+  310  1.00  1
+  600  1.00  2
+ 1000  1.00  2
+ 3000  1.00  2
+ 6000  1.00  1
+12000  1.00  0
+14000  1.00  0
+16000  1.00  0

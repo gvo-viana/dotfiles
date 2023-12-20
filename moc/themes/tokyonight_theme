@@ -1,0 +1,53 @@
+# Created by Gustavo Alx Viana inspired by the Tokyo·Night theme palette.
+
+# ----------------------------------------------------
+# Color Palette
+# ----------------------------------------------------
+colordef black      = 102   106   149
+colordef blue       = 478   635   969
+colordef cyan       = 490   812   1000
+colordef grey       = 255   282   408
+colordef magenta    = 733   604   969
+colordef red        = 969   463   557
+colordef white      = 663   694   839
+# ----------------------------------------------------
+
+# ----------------------------------------------------
+# UI Elements             Foreground   Backgorund
+# ----------------------------------------------------
+background              =   black       black
+frame                   =   grey        black
+window_title            =   magenta     black
+directory               =   blue        black
+selected_directory      =   white       black     bold
+playlist                =   grey        black
+selected_playlist       =   magenta     black
+file                    =   grey        black
+selected_file           =   magenta     black
+marked_file             =   cyan        black
+marked_selected_file    =   cyan        black     bold
+info                    =   black       black
+selected_info           =   magenta     black
+marked_info             =   cyan        black
+marked_selected_info    =   cyan        black     bold
+status                  =   cyan        black
+title                   =   cyan        black
+state                   =   cyan        black
+current_time            =   cyan        black
+time_left               =   magenta     black
+total_time              =   grey        black
+time_total_frames       =   grey        black
+sound_parameters        =   cyan        black
+legend                  =   magenta     black
+disabled                =   grey        black
+enabled                 =   cyan        black
+empty_mixer_bar         =   magenta     black
+filled_mixer_bar        =   magenta     grey
+empty_time_bar          =   magenta     black
+filled_time_bar         =   magenta     grey
+entry                   =   white       black
+entry_title             =   white       black
+error                   =   red         black
+message                 =   magenta     black
+plist_time              =   magenta     black
+# ----------------------------------------------------

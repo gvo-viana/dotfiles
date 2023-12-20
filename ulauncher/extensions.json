@@ -1,0 +1,51 @@
+{
+    "com.github.kleber-swf.ulauncher-turn-off-screen": {
+        "id": "com.github.kleber-swf.ulauncher-turn-off-screen",
+        "url": "https://github.com/kleber-swf/ulauncher-turn-off-screen",
+        "updated_at": "2022-03-24T18:54:26.480567",
+        "last_commit": "a461b89706008fcb5605b6e800fec29308b70a04",
+        "last_commit_time": "2020-11-18T20:05:35"
+    },
+    "com.github.manahter.ulauncher-translate": {
+        "id": "com.github.manahter.ulauncher-translate",
+        "url": "https://github.com/manahter/ulauncher-translate",
+        "updated_at": "2022-03-24T18:55:17.780523",
+        "last_commit": "f81d32c583c7e3542bdba655e991a56e6d9a2c28",
+        "last_commit_time": "2021-04-09T18:12:40"
+    },
+    "com.github.iboyperson.ulauncher-system": {
+        "id": "com.github.iboyperson.ulauncher-system",
+        "url": "https://github.com/iboyperson/ulauncher-system",
+        "updated_at": "2022-03-24T18:56:10.026465",
+        "last_commit": "667613bf7bb6b4affa4f2121b58589477cd89829",
+        "last_commit_time": "2021-11-08T18:16:55"
+    },
+    "com.github.fsevenm.ulauncher-verb-forms-checker": {
+        "id": "com.github.fsevenm.ulauncher-verb-forms-checker",
+        "url": "https://github.com/fsevenm/ulauncher-verb-forms-checker",
+        "updated_at": "2022-03-24T19:08:43.802657",
+        "last_commit": "336f894a306aef80c5873a56b5b9331bbc401712",
+        "last_commit_time": "2021-01-15T19:07:59"
+    },
+    "com.github.hillaryychan.ulauncher-fzf": {
+        "id": "com.github.hillaryychan.ulauncher-fzf",
+        "url": "https://github.com/hillaryychan/ulauncher-fzf",
+        "updated_at": "2022-07-23T23:07:54.065876",
+        "last_commit": "a2d2d4e26dc8c5ecee808a9dd35ee8efddb71be9",
+        "last_commit_time": "2022-05-29T09:04:12"
+    },
+    "com.github.melianmiko.ulauncher-nmcli": {
+        "id": "com.github.melianmiko.ulauncher-nmcli",
+        "url": "https://github.com/melianmiko/ulauncher-nmcli",
+        "updated_at": "2022-07-23T23:09:30.522593",
+        "last_commit": "fe967c947748616df602c9d022fec6d68a6b2cf2",
+        "last_commit_time": "2022-05-01T12:20:38"
+    },
+    "com.github.hippo-o-matic.ulauncher-qalc": {
+        "id": "com.github.hippo-o-matic.ulauncher-qalc",
+        "url": "https://github.com/hippo-o-matic/ulauncher-qalc",
+        "updated_at": "2023-02-28T15:53:21.495794",
+        "last_commit": "45882831f57c265ee3b4bf47cdb862379d47a89a",
+        "last_commit_time": "2021-03-03T03:33:36"
+    }
+}

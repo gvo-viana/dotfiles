@@ -1,0 +1,183 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+window:
+  # Specified in number of columns/lines, not pixels.
+  # If both are `0`, this setting is ignored.
+  dimensions:
+    columns: 120
+    lines:   31
+
+  # Blank space added around the window in pixels. This padding is scaled
+  # by DPI and the specified value is always added at both opposing sides.
+  padding:
+    x: 30
+    y: 25
+
+  # Window decorations
+  #
+  # Values for `decorations`:
+  #     - full: Borders and title bar
+  #     - none: Neither borders nor title bar
+  decorations: full
+
+  # Values for `startup_mode`:
+  #   - Windowed
+  #   - Maximized
+  #   - Fullscreen
+  startup_mode: Windowed
+
+  # Override the variant of the GTK theme. Commonly supported values are `dark`
+  # and `light`. Set this to `None` to use the default theme variant.
+  gtk_theme_variant: None
+
+  # Background opacity
+  #
+  # Window opacity as a floating point number from `0.0` to `1.0`.
+  # The value `0.0` is completely transparent and `1.0` is opaque.
+  opacity: 0.9
+
+# Font configuration
+font:
+  normal:
+    family: JetBrainsMono Nerd Font Mono
+    # family: AnonymicePro Nerd Font Mono
+    # family: FiraCode Nerd Font Mono
+    # The `style` can be specified to pick a specific face.
+    style: ExtraLight
+
+  bold:
+    # family: Anonymice Nerd Font Mono
+    family: JetBrainsMono Nerd Font Mono
+    # The `style` can be specified to pick a specific face.
+    style: SemiBold
+
+    # If `true`, bold text is drawn using the bright color variants.
+    draw_bold_text_with_bright_colors: true
+
+  italic:
+    # family: Anonymice Nerd Font Mono
+    family: JetBrainsMono Nerd Font Mono
+    # The `style` can be specified to pick a specific face.
+    style: ExtraLight Italic
+
+  bold_italic:
+    family: JetBrainsMono Nerd Font Mono
+    # The `style` can be specified to pick a specific face.
+    style: SemiBold Italic
+
+  # Point size
+  size: 9.0
+
+  # Offset is the extra space around each character. `offset.y` can be thought
+  # of as modifying the line spacing, and `offset.x` as modifying the letter
+  # spacing.
+  offset:
+    x: 0
+    y: 0
+
+  # Glyph offset determines the locations of the glyphs within their cells with
+  # the default being at the bottom. Increasing `x` moves the glyph to the
+  # right, increasing `y` moves the glyph upwards.
+  glyph_offset:
+    x: 0
+    y: 0
+
+
+# TokyoNight Alacritty Colors
+colors:
+  # Default colors
+  primary:
+    background: '#1a1b26'
+    # background: '#24283b'
+    foreground: '#c0caf5'
+
+  # Normal colors
+  normal:
+    black:   '#15161e'
+    red:     '#f7768e'
+    green:   '#9ece6a'
+    yellow:  '#e0af68'
+    blue:    '#7aa2f7'
+    magenta: '#bb9af7'
+    cyan:    '#7dcfff'
+    white:   '#a9b1d6'
+
+  # Bright colors
+  bright:
+    # black:   '#414868'
+    black:   '#717db5'
+    red:     '#f7768e'
+    green:   '#9ece6a'
+    yellow:  '#e0af68'
+    blue:    '#7aa2f7'
+    magenta: '#bb9af7'
+    cyan:    '#7dcfff'
+    white:   '#c0caf5'
+
+  indexed_colors:
+    # - { index: 16, color: '#ff9e64' }
+    - { index: 16, color: '#004c54' }
+    - { index: 17, color: '#db4b4b' }
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+
+cursor:
+  # Cursor style
+  #
+  # Values for `style`:
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Block
+
+mouse:
+  # The `double_click` and `triple_click` settings control the time
+  # alacritty should wait for accepting multiple clicks as one double
+  # or triple click.
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+
+# Mouse bindings
+#
+# Mouse bindings are specified as a list of objects, much like the key
+# bindings further below.
+#
+# To trigger mouse bindings when an application running within Alacritty
+# captures the mouse, the `Shift` modifier is automatically added as a
+# requirement.
+#
+# Each mouse binding will specify a:
+#
+# - `mouse`:
+#
+#   - Middle
+#   - Left
+#   - Right
+#   - Numeric identifier such as `5`
+#
+# - `action` (see key bindings)
+#
+# And optionally:
+#
+# - `mods` (see key bindings)
+mouse_bindings:
+  - { mouse: Right, action: PasteSelection }
+
+# Key bindings
+#
+key_bindings:
+
+  # (Windows, Linux, and BSD only)
+  - { key: V,              mods: Control|Shift,      action: Paste            }
+  - { key: C,              mods: Control|Shift,      action: Copy             }
+  - { key: Insert,         mods: Shift,              action: PasteSelection   }
+  - { key: Key0,           mods: Control,            action: ResetFontSize    }
+  - { key: Equals,         mods: Control,            action: IncreaseFontSize }
+  - { key: NumpadAdd,      mods: Control,            action: IncreaseFontSize }
+  - { key: NumpadSubtract, mods: Control,            action: DecreaseFontSize }
+  - { key: Minus,          mods: Control,            action: DecreaseFontSize }
+
+  # (Customized:)
+  - { key: F11,                                     action: ToggleFullscreen }
+  - { key: F12,                                     action: SpawnNewInstance }

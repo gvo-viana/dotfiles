@@ -1,0 +1,52 @@
+# Created by Gustavo Alx Viana inspired by the Nord colors palette.
+
+# ----------------------------------------------------
+# Color Palette
+# ----------------------------------------------------
+colordef blue       = 506  631  757
+colordef cyan       = 561  737  733
+colordef grey       = 298  337  416
+colordef magenta    = 706  557  678
+colordef red        = 749  380  416
+colordef white      = 847  871  914
+# ----------------------------------------------------
+
+# ----------------------------------------------------
+# UI Elements             Foreground   Backgorund
+# ----------------------------------------------------
+background              =   default     default
+frame                   =   grey        default
+window_title            =   magenta     default
+directory               =   blue        default
+selected_directory      =   white       default
+playlist                =   grey        default
+selected_playlist       =   magenta     default
+file                    =   grey        default
+selected_file           =   magenta     default
+marked_file             =   cyan        default
+marked_selected_file    =   cyan        default     bold
+info                    =   grey        default
+selected_info           =   magenta     default
+marked_info             =   cyan        default
+marked_selected_info    =   cyan        default     bold
+status                  =   cyan        default
+title                   =   cyan        default
+state                   =   cyan        default
+current_time            =   cyan        default
+time_left               =   magenta     default
+total_time              =   grey        default
+time_total_frames       =   grey        default
+sound_parameters        =   cyan        default
+legend                  =   magenta     default
+disabled                =   grey        default
+enabled                 =   cyan        default
+empty_mixer_bar         =   magenta     default
+filled_mixer_bar        =   magenta     grey
+empty_time_bar          =   magenta     default
+filled_time_bar         =   magenta     grey
+entry                   =   white       default
+entry_title             =   white       default
+error                   =   red         default
+message                 =   magenta     default
+plist_time              =   magenta     default
+# ----------------------------------------------------
