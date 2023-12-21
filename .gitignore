@@ -1,3 +1,4 @@
 *~
+.mypy_cache
 run_backup
 nvim/lua/user/plugged
