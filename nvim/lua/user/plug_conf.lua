@@ -35,6 +35,7 @@ utils.PlugPlugins(
     { 'tpope/vim-repeat'}, -- extend the "." command.
     { 'mg979/vim-visual-multi' }, -- a one-shot multi selector.
     { 'vim-scripts/loremipsum' }, -- a dummy text generator.
+    { 'sQVe/sort.nvim' }, -- enhance the sort tool.
   }
 )
 
@@ -44,6 +45,7 @@ require('colorizer').setup({})
 require('Comment').setup({})
 require('nvim-autopairs').setup({})
 require('tidy').setup({})
+require('sort').setup({})
 
 require('spellsitter').setup({
   enable = true,
