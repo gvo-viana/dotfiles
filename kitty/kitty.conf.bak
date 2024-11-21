@@ -1,0 +1,53 @@
+# FONTS (TYPEFACES)
+# ------------------------------------------------------------------------------
+# Use the following command to list the available fonts:
+# kitty +list-fonts --psnames
+# ------------------------------------------------------------------------------
+font_family             JetBrainsMono-ExtraLight
+bold_font               JetBrainsMono-Light
+bold_italic_font        JetBrainsMono-LightItalic
+italic_font             JetBrainsMono-ExtraLightItalic
+
+# font_family             FantasqueSansMonoNerdFontCompleteM-Regular
+# bold_font               FantasqueSansMonoNerdFontCompleteM-Bold
+# bold_italic_font        FantasqueSansMonoNerdFontCompleteM-BoldItalic
+# italic_font             FantasqueSansMonoNerdFontCompleteM-Italic
+
+font_size               11.0
+disable_ligatures       never
+
+modify_font             cell_width            100%
+modify_font             cell_height           1.2px
+modify_font             baseline              0
+modify_font             underline_position    1.5px
+
+# CURSOR
+# ------------------------------------------------------------------------------
+shell_integration       no-cursor
+cursor_shape            block
+cursor_blink_interval   0
+
+# WINDOW LAYOUT
+# ------------------------------------------------------------------------------
+remember_window_size    yes
+window_padding_width    20
+enabled_layouts         *
+# enabled_layouts         tall:bias=50;full_size=1;mirrored=false
+
+# TAB BAR
+# ------------------------------------------------------------------------------
+tab_bar_style           powerline
+tab_powerline_style     angled
+active_tab_font_style   bold
+
+# ADVANCED
+# ------------------------------------------------------------------------------
+editor                  nvim
+
+# COLOR SCHEME
+# ------------------------------------------------------------------------------
+background_opacity      0.95
+# BEGIN_KITTY_THEME
+# My-Theme
+include current-theme.conf
+# END_KITTY_THEME
