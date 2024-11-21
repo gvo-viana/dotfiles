@@ -1,22 +1,34 @@
 #EXTM3U
-#MOCSERIAL: 256
-#EXTINF:258,Black Man In A White World - Michael Kiwanuka
-/home/gviana/Música/Albuns/Michael_Kiwanuka_Love_&_Hate_(2016)_[24-96_HD_FLAC]/02 - Black Man In A White World.flac
-#EXTINF:256,Falling - Michael Kiwanuka
-/home/gviana/Música/Albuns/Michael_Kiwanuka_Love_&_Hate_(2016)_[24-96_HD_FLAC]/03 - Falling.flac
-#EXTINF:597,Cold Little Heart - Michael Kiwanuka
-/home/gviana/Música/Albuns/Michael_Kiwanuka_Love_&_Hate_(2016)_[24-96_HD_FLAC]/01 - Cold Little Heart.flac
-#EXTINF:287,Place I Belong - Michael Kiwanuka
-/home/gviana/Música/Albuns/Michael_Kiwanuka_Love_&_Hate_(2016)_[24-96_HD_FLAC]/04 - Place I Belong.flac
-#EXTINF:427,Love & Hate - Michael Kiwanuka
-/home/gviana/Música/Albuns/Michael_Kiwanuka_Love_&_Hate_(2016)_[24-96_HD_FLAC]/05 - Love & Hate.flac
-#EXTINF:233,One More Night - Michael Kiwanuka
-/home/gviana/Música/Albuns/Michael_Kiwanuka_Love_&_Hate_(2016)_[24-96_HD_FLAC]/06 - One More Night.flac
-#EXTINF:165,I'll Never Love - Michael Kiwanuka
-/home/gviana/Música/Albuns/Michael_Kiwanuka_Love_&_Hate_(2016)_[24-96_HD_FLAC]/07 - I'll Never Love.flac
-#EXTINF:342,Rule The World - Michael Kiwanuka
-/home/gviana/Música/Albuns/Michael_Kiwanuka_Love_&_Hate_(2016)_[24-96_HD_FLAC]/08 - Rule The World.flac
-#EXTINF:425,Father's Child - Michael Kiwanuka
-/home/gviana/Música/Albuns/Michael_Kiwanuka_Love_&_Hate_(2016)_[24-96_HD_FLAC]/09 - Father's Child.flac
-#EXTINF:299,The Final Frame - Michael Kiwanuka
-/home/gviana/Música/Albuns/Michael_Kiwanuka_Love_&_Hate_(2016)_[24-96_HD_FLAC]/10 - The Final Frame.flac
+#MOCSERIAL: 512
+#EXTINF:-1,Majestic Jukebox Radio (320kbps)
+http://uk3.internet-radio.com:8405/live
+#EXTINF:-1,4MySoul (192kbps)
+http://212.83.150.15:8539
+#EXTINF:-1,Motown Magic Oldies (192kbps)
+http://airspectrum.cdnstream1.com:8024/1302_192
+#EXTINF:-1,Smooth & Funky (192kbps)
+http://176.31.248.14:10892
+#EXTINF:-1,Soulpower Radio (128kbps)
+http://109.74.196.76:8174/stream
+#EXTINF:-1,Non Stop Oldies (128kbps)
+http://s18.myradiostream.com:9676
+#EXTINF:-1,Smooth Grooving (128kbps)
+http://64.95.243.43:8020
+#EXTINF:-1,Soul Gold Radio Old Love Songs (128kbps)
+http://38.107.242.34:8453
+#EXTINF:-1,Super Soul Gold Radio (128kbps)
+http://192.111.140.6:9574
+#EXTINF:-1,SpectrumSoul (128kbps)
+http://51.255.235.165:5508
+#EXTINF:-1,Generation Soul Disco Funk Radio (128kbps)
+http://stream.generationdiscofunk.com:8000
+#EXTINF:-1,Easy Hits Florida (128kbps)
+http://airspectrum.cdnstream1.com:8114/1648_128
+#EXTINF:-1,The Disco Palace (128kbps)
+http://144.217.129.213:9120
+#EXTINF:-1,Blues Radio (192kbps)
+http://37.59.14.77:8352
+#EXTINF:-1,The Cove Blues (128kbps)
+http://198.100.146.172:20038
+#EXTINF:-1,Megaton Cafe Radio (128kbps)
+http://us2.internet-radio.com:8443/stream

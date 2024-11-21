@@ -1,4 +1,16 @@
 # TokyoNight Color Palette
+
+# color hex code: #c0caf5
+# color hex code: #33467c
+# color hex code: #565f89
+# color hex code: #f7768e
+# color hex code: #ff9e64
+# color hex code: #e0af68
+# color hex code: #9ece6a
+# color hex code: #9d7cd8
+# color hex code: #7dcfff
+# color hex code: #bb9af7
+
 set -l foreground c0caf5
 set -l selection 33467c
 set -l comment 565f89

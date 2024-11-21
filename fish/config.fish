@@ -1,3 +1,5 @@
+# setting some environment variables:
+set -gx EDITOR nvim
 # Loading the settings of the TokyoNight theme:
 source ~/.config/fish/aux_files/tokyonight.fish
 # Loading the settings of the BobTheFish theme:

@@ -1,0 +1,137 @@
+[[colors.indexed_colors]]
+color = "#004c54"
+index = 16
+
+[[colors.indexed_colors]]
+color = "#db4b4b"
+index = 17
+
+[colors.bright]
+black = "#717db5"
+blue = "#7aa2f7"
+cyan = "#7dcfff"
+green = "#9ece6a"
+magenta = "#bb9af7"
+red = "#f7768e"
+white = "#c0caf5"
+yellow = "#e0af68"
+
+[colors.normal]
+black = "#15161e"
+blue = "#7aa2f7"
+cyan = "#7dcfff"
+green = "#9ece6a"
+magenta = "#bb9af7"
+red = "#f7768e"
+white = "#a9b1d6"
+yellow = "#e0af68"
+
+[colors.primary]
+background = "#1a1b26"
+foreground = "#c0caf5"
+
+[cursor]
+style = "Block"
+
+[font]
+size = 9.0
+
+[font.bold]
+# draw_bold_text_with_bright_colors = true
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "JetBrains Mono"
+style = "ExtraLight Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "ExtraLight"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "PasteSelection"
+key = "Insert"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "NumpadAdd"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "NumpadSubtract"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "F12"
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Right"
+
+# [mouse.double_click]
+# threshold = 300
+
+# [mouse.triple_click]
+# threshold = 300
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[window]
+decorations = "full"
+# gtk_theme_variant = "None"
+opacity = 0.9
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 135
+lines = 32
+
+[window.padding]
+x = 30
+y = 25

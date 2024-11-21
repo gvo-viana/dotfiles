@@ -1,6 +1,7 @@
 local lighten = require('tokyonight.util').lighten
 local colors = require('tokyonight.colors').setup()
 
+-- require('tokyonight').setup({})
 require('tokyonight').setup({
   style = 'night',
   transparent = true,
@@ -8,10 +9,12 @@ require('tokyonight').setup({
   styles = {
     functions = { italic = true },
   },
+
   on_colors = function(colors)
     colors.comment = lighten(colors.comment, 0.8)
     colors.fg_gutter = lighten(colors.fg_gutter, 0.85)
-    colors.bg_sidebar = colors.none
+    -- colors.bg_sidebar = colors.none
+    colors.bg_sidebar = colors.bg
   end,
 
   on_highlights = function(highlights, colors)

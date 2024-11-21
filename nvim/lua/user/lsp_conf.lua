@@ -74,7 +74,7 @@ local linters = {
   'html',
   'lua_ls',
   'pylsp',
-  'tsserver',
+  'ts_ls',
   'vimls',
 }
 
@@ -249,6 +249,7 @@ local formatters = {
   javascript = 'prettier',
   lua = 'stylua',
   python = 'black',
+  shellscript = 'shfmt',
   typescript = 'prettier',
 }
 
